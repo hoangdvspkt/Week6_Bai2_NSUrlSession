@@ -29,7 +29,7 @@ class SearchViewController: UIViewController {
     return recognizer
   }()
   
-
+//create downloadSession with type URL...
   lazy var downloadsSession: URLSession = {
 
     let configuration = URLSessionConfiguration.background(withIdentifier: "bgSessionConfiguration")
